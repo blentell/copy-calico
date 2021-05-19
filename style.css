@@ -1,0 +1,327 @@
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	display: flex;
+	background-color: #073f63;
+	width: 1701px;
+	height: 79.5px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.coupon-text {
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.coupon-text2 {
+	font-size: 0.75em;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-evenly;
+	width: 1701px;
+	height: 70px;
+}
+
+.logo {
+	width: 110px;
+	height: 50px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+#navigation {
+	display: flex;
+	width: 783px;
+	height: 70px;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+a.Shop {
+	text-decoration: none;
+	color: #154173;
+}
+
+a.Shop:hover {
+	color: #0057b8;
+}
+
+a.Bracelets {
+	text-decoration: none;
+	color: #154173;
+}
+
+a.Bracelets:hover {
+	color: #0057b8;
+}
+
+a.Our-Mission {
+	text-decoration: none;
+	color: #154173;
+}
+
+a.Our-Mission:hover {
+	color: #0057b8;
+}
+
+a.Clean-Ocean-Club {
+	text-decoration: none;
+	color: #154173;
+}
+
+a.Clean-Ocean-Club:hover {
+	color: #0057b8;
+}
+
+a.Face-Masks-Frames {
+	text-decoration: none;
+	color: #154173;
+}
+
+a.Face-Masks-Frames:hover {
+	color: #0057b8;
+}
+
+#menu {
+	display: flex;
+	width: 300px;
+	height: 32px;
+	margin-top: 20px;
+	align-items: center;
+}
+.currency {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	line-height: 15px;
+	width: 80px;
+	height: 32px;
+	font-size: 16px;
+}
+
+.USD-flag {
+	list-style-type: none;
+	position: absolute;
+	background-image: url("https://static.boldcommerce.com/multicurrency/flags.png");
+	background-position: left;
+	height: 11px;
+	width: 16px;
+	left: 0%;
+	background-position: 0 -154px;
+	transform: translateY(-50%);
+}
+
+.USD {
+	margin-left: 27px;
+	margin-top: 9px;
+	list-style-type: none;
+	line-height: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #154173;
+}
+
+.navbar {
+	width: 220px;
+	height: 32px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.main {
+	display: flex;
+	background-image: url("https://cdn.shopify.com/s/files/1/0996/1022/files/4ocean-Mask-Illustration_1800x.jpg?v=1610653939");
+	background-position: 50%;
+	background-size: cover;
+	width: 1701px;
+	height: 700px;
+}
+
+.mainText {
+	display: flex;
+	height: 200px;
+	width: 525px;
+	font-size: 48px;
+	line-height: 50px;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 130px;
+	margin-left: 160px;
+}
+
+.button1 {
+	display: flex;
+	margin-top: 420px;
+	margin-left: -520px;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	width: 142px;
+	height: 48px;
+	margin-right: 50px;
+	border-radius: 40px;
+	text-align: center;
+}
+
+.button1Text {
+	text-decoration: none;
+	color: black;
+}
+
+.button1Text:hover {
+	color: #0057b8;
+}
+.button2 {
+	display: flex;
+	margin-top: 420px;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	width: 126px;
+	height: 48px;
+	border-radius: 40px;
+	text-align: center;
+}
+
+.button2Text {
+	color: black;
+	text-decoration: none;
+}
+
+.button2Text:hover {
+	color: #0057b8;
+}
+
+.feedback {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	text-align: center;
+	transform: translateY(-50%);
+	background-color: #0057b8;
+	direction: ltr;
+	box-sizing: border-box;
+	top: 470px;
+	right: 0;
+	float: none;
+	font-family: Helvetica;
+	font-size: 13px;
+	text-transform: initial;
+	writing-mode: sideways-lr;
+	letter-spacing: normal;
+	margin: 0;
+	margin-right: 10px;
+	padding: 8px;
+	color: white;
+	height: 80px;
+	width: 40px;
+	border-radius: 5px;
+}
+.carouselContainer {
+	display: flex;
+	width: 1701px;
+	height: 409px;
+}
+
+.carouselTextContainer {
+	width: 320px;
+	height: 157px;
+	margin-top: 101px;
+	margin-right: 100px;
+	margin-left: 160px;
+}
+
+.carouselText {
+	width: 320px;
+	height: 48px;
+	color: #00263e;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.shopButton {
+	width: 70px;
+	height: 26px;
+	margin-top: 80px;
+	font-size: 18px;
+	font-family: sans-serif;
+	letter-spacing: 0.037px;
+}
+
+.shopButtonText {
+	text-decoration: none;
+	border-bottom: 1px solid #00263e;
+	color: #00263e;
+}
+
+.shopButtonText:hover {
+	color: #0057b8;
+}
+.carousel {
+	display: flex;
+	justify-content: center;
+	width: 960px;
+	height: 359px;
+	margin-top: 20px;
+}
+
+.item1Container1 {
+	width: 274px;
+	height: 274px;
+}
+
+.Manta {
+	width: 274px;
+	height: 274px;
+}
+
+.item1Container2 {
+	width: 274px;
+	height: 79px;
+	margin-top: 0px;
+}
+
+.item2Container1 {
+	width: 274px;
+	height: 274px;
+}
+
+.support {
+	width: 274px;
+	height: 274px;
+}
+
+.item2Container2 {
+	width: 274px;
+	height: 79px;
+}
+
+.item3Container1 {
+	width: 274px;
+	height: 274px;
+}
+
+.bottle {
+	width: 274px;
+	height: 274px;
+}
+.item3Container2 {
+	width: 274px;
+	height: 79px;
+}
