@@ -1,5 +1,5 @@
 .container {
-	width: 100%;
+	width: 1701px;
 	height: 100%;
 }
 
@@ -225,7 +225,7 @@ a.Face-Masks-Frames:hover {
 	writing-mode: sideways-lr;
 	letter-spacing: normal;
 	margin: 0;
-	margin-right: 10px;
+	margin-right: 1%;
 	padding: 8px;
 	color: white;
 	height: 80px;
